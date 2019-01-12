@@ -14,6 +14,7 @@
 		836DEB9521EA78BC00194153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836DEB9321EA78BC00194153 /* LaunchScreen.storyboard */; };
 		836DEBA021EA78BC00194153 /* BasicNavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836DEB9F21EA78BC00194153 /* BasicNavigationTests.swift */; };
 		836DEBAB21EA78BC00194153 /* BasicNavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836DEBAA21EA78BC00194153 /* BasicNavigationUITests.swift */; };
+		836DEBBD21EA80D900194153 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836DEBBC21EA80D900194153 /* ColorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		836DEBA621EA78BC00194153 /* BasicNavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicNavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		836DEBAA21EA78BC00194153 /* BasicNavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicNavigationUITests.swift; sourceTree = "<group>"; };
 		836DEBAC21EA78BC00194153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		836DEBBC21EA80D900194153 /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +99,10 @@
 		836DEB8921EA78BB00194153 /* BasicNavigation */ = {
 			isa = PBXGroup;
 			children = (
-				836DEB8A21EA78BB00194153 /* AppDelegate.swift */,
 				836DEB8C21EA78BB00194153 /* ViewController.swift */,
+				836DEBBC21EA80D900194153 /* ColorViewController.swift */,
 				836DEB8E21EA78BB00194153 /* Main.storyboard */,
+				836DEB8A21EA78BB00194153 /* AppDelegate.swift */,
 				836DEB9121EA78BC00194153 /* Assets.xcassets */,
 				836DEB9321EA78BC00194153 /* LaunchScreen.storyboard */,
 				836DEB9621EA78BC00194153 /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				836DEB8D21EA78BB00194153 /* ViewController.swift in Sources */,
+				836DEBBD21EA80D900194153 /* ColorViewController.swift in Sources */,
 				836DEB8B21EA78BB00194153 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
